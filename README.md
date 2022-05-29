@@ -1,7 +1,7 @@
 # GastosPresidentes
 
 Foi feita a análise de dados dos gastos presidenciais no cartão corporativo desde 01/2013 (primeira data disponível no site governamental) até 03/2022.</br>
-A fonte dos dados são uma série de arquivos .csv baixados da página https://www.portaltransparencia.gov.br/cartoes/consulta com filtros de período e orgão ao qual o cartão está vinculado, nesse caso, "20101 - Presidência da República". </br>
+A fonte dos dados é uma série de arquivos .csv baixados da página https://www.portaltransparencia.gov.br/cartoes/consulta com filtros de período e orgão ao qual o cartão está vinculado, nesse caso, "20101 - Presidência da República". </br>
 As informações de inflação mensal foram tiradas do site https://www.idinheiro.com.br/tabelas/tabela-ipca/</br></br>
 Os dados foram extraídos com auxílio da biblioteca pandas a qual tem funções de extração tanto de arquivos .csv quanto de páginas em formato html.</br>
 Depois foram tratados, atualizados e somados de acordo com o mandatário até o mês de Abril de 2022 para que a comparação fosse mais justa do ponto de vista do valor atual em real.</br>
